@@ -1,0 +1,18 @@
+@'
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[headers]
+  for = "/*"
+    [headers.values]
+      Referrer-Policy = "strict-origin-when-cross-origin"
+      X-Content-Type-Options = "nosniff"
+      X-Frame-Options = "DENY"
+      X-XSS-Protection = "0"
+'@ | Out-File -FilePath netlify.toml -Encoding utf8

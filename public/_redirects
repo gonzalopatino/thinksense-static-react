@@ -1,0 +1,2 @@
+New-Item -ItemType Directory -Force -Path public | Out-Null
+"/*  /index.html  200" | Out-File -FilePath public/_redirects -Encoding ascii
