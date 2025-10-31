@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Layout from "./components/Layout"
+import Layout from "./components/layout"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
