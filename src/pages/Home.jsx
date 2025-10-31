@@ -105,7 +105,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 1.0 }}
           >
             <Link to="/projects" className="btn">View projects</Link>
-            <a href="mailto:contact@thinksense.io" className="btn btn-ghost">Contact</a>
+            <a href="mailto:info@thinksenselabs.com" className="btn btn-ghost">Contact</a>
           </motion.div>
         </div>
       </section>
