@@ -10,7 +10,7 @@ export default function Home() {
       </p>
       <div className="cta">
         <Link to="/projects" className="btn">View projects</Link>
-        <a href="mailto:contact@thinksense.example" className="btn btn-ghost">Contact</a>
+        <a href="mailto:info@thinksenselabs.com" className="btn btn-ghost">Contact</a>
       </div>
     </section>
   )
